@@ -1,5 +1,4 @@
 ﻿using System;
-using RGiesecke.DllExport;
 using System.Runtime.InteropServices;
 
 namespace DemoPluginNet
