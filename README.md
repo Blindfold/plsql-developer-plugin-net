@@ -6,12 +6,12 @@ The goal of the project is to provide documentation, tips & hints, and demonstra
 Tools used
 =====
 * Microsoft Visual Studio 2015 Community edition
-* [UnmanagedExports by Robert Giesecke](https://www.nuget.org/packages/UnmanagedExports) (NuGet package)
+* [Unmanaged Exports ( .NET DllExport )](https://github.com/3F/DllExport)
 
 Building
 ====
 * Open the solution in Visual Studio.
-* Make sure platform is not AnyCPU, because AnyCPU assemblies cannot export functions.
+* Configure DllExport for projects (DllExport.bat -action Configure). See https://github.com/3F/DllExport#how-to-get-dllexport
 * Build the solution.
 
 Installing and running the demo plug-in
